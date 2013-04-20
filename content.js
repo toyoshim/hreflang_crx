@@ -2,7 +2,7 @@ var links = document.getElementsByTagName('link');
 var hreflangs = [];
 
 for (var i = 0; i < links.length; ++i) {
-    if (links[i].rel != 'alternate' || typeof links[i].hreflang == 'undefined')
+    if (links[i].rel != 'alternate' || !links[i].hreflang)
         continue;
     hreflangs.push({
         lang: links[i].hreflang,

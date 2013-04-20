@@ -1,6 +1,6 @@
 {
   "name": "hreflang handler",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "hreflang handler for multilingual sites",
   "background" : { "scripts" : [ "background.js" ] },
   "page_action" : {
